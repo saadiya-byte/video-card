@@ -3,54 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Just For You ❤️</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <main class="card">
+<main class="card">
 
-        <div class="top-heart">♥</div>
+    <div class="top-heart">♥</div>
 
-        <h1>Just for You</h1>
+    <h1>Just for You</h1>
 
-        <div class="divider">♥</div>
+    <div class="divider">♥</div>
 
-        <p class="intro">
-            A little something special, made just for you.
+    <p class="intro">
+        A little something special, made just for you.
+    </p>
+
+    <!-- VIDEO -->
+    <section class="video-box">
+        <video controls playsinline>
+            <source
+                src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                type="video/mp4">
+        </video>
+    </section>
+
+    <h2>A Special Message ❤️</h2>
+
+    <p class="message">
+        Some moments are worth keeping forever.
+        This is a little memory made especially for you.
+    </p>
+
+    <!-- QR CODE -->
+    <div class="qr-section">
+
+        <h3>Scan Me ❤️</h3>
+
+        <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https%3A%2F%2Fsaadiya-byte.github.io%2Fvideo-card%2F"
+            alt="QR Code">
+
+        <p>
+            Scan this QR code to open this digital card.
         </p>
 
-        <!-- ONLINE SAMPLE VIDEO -->
-        <section class="video-box">
+    </div>
 
-            <video controls playsinline poster="">
-                <source
-                    src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-                    type="video/mp4"
-                >
+    <div class="bottom-line">
+        ALWAYS &amp; FOREVER
+    </div>
 
-                Your browser does not support video playback.
-            </video>
+</main>
 
-        </section>
-
-        <h2>A Special Message ❤️</h2>
-
-        <p class="message">
-            Some moments are worth keeping forever.
-            This is a prototype of your personalized digital video card.
-        </p>
-
-        <div class="bottom-line">
-            ALWAYS &amp; FOREVER
-        </div>
-
-    </main>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
