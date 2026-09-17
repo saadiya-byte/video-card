@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just For You ❤️</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Just For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main class="card">
-    <div class="top-heart">♥</div>
-    <h1>Just for You</h1>
-    <div class="divider">♥</div>
 
-    <p class="intro">Scan the QR code on your card to watch a special video made just for you.</p>
+    <main class="card">
 
-    <section class="video-box">
-      <div class="video-placeholder">
-        <div class="play">▶</div>
-        <span>Your video will appear here</span>
-      </div>
-    </section>
+        <div class="top-heart">♥</div>
 
-    <h2>A Special Message ❤️</h2>
-    <p class="message">
-      This video is a small reminder of how special you are to me.
-      I hope it makes you smile as much as you make my life brighter.
-    </p>
+        <h1>Just for You</h1>
 
-    <div class="bottom-line">ALWAYS &amp; FOREVER</div>
-  </main>
+        <div class="divider">♥</div>
+
+        <p class="intro">
+            A little something special, made just for you.
+        </p>
+
+        <!-- ONLINE SAMPLE VIDEO -->
+        <section class="video-box">
+
+            <video controls playsinline poster="">
+                <source
+                    src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                    type="video/mp4"
+                >
+
+                Your browser does not support video playback.
+            </video>
+
+        </section>
+
+        <h2>A Special Message ❤️</h2>
+
+        <p class="message">
+            Some moments are worth keeping forever.
+            This is a prototype of your personalized digital video card.
+        </p>
+
+        <div class="bottom-line">
+            ALWAYS &amp; FOREVER
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
