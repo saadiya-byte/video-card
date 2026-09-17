@@ -1,0 +1,1 @@
+console.log("Digital Video Card prototype loaded ❤️");
